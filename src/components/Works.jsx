@@ -86,14 +86,14 @@ const Works = () => {
           technologies, be detail oriented, and keep the end users in mind
           during development.
         </motion.p>
-
-        <div className='mt-20 flex flex-wrap gap-7'>
+      </div>
+      
+      <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-
-      </div>
+      
     </>
   )
 }
